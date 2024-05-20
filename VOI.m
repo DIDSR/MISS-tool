@@ -1,4 +1,4 @@
-% Compute the Mutual Information (MI) of two masks
+% Compute the Variation of Information (VOI) of two masks
 %
 % inputs 
 % n: Total number of pixels in a mask (must be same to the two masks)
@@ -8,9 +8,9 @@
 % FN: False negative (pixels) of two masks
 %
 % output 
-% Mutual Information (MI)
+% Variation of Information (VOI)
 
-function mi=MI(n,tp,fp,fn,tn)
+function voi=VOI(n,tp,fp,fn,tn)
 row1 = tn + fn;
 row2 = fp + tp;
 H1 = - ( (row1/n)*log2(row1/n) + (row2/n)*log2(row2/n));
@@ -46,6 +46,6 @@ end
 
 H12= - ( (tn/n)*log2(p00) + (fn/n)*log2(p01) +  (fp/n)*log2(p10) + (tp/n)*log2(p11) );
 
-mi=H1+H2-H12;
-% voi=H1+H2-2*mi; % Variation of Information (VOI)
+% mi=H1+H2-H12; % Mutual Information (MI)
+voi=H1+H2-2*mi;
 end
