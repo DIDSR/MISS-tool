@@ -47,5 +47,5 @@ end
 H12= - ( (tn/n)*log2(p00) + (fn/n)*log2(p01) +  (fp/n)*log2(p10) + (tp/n)*log2(p11) );
 
 mi=H1+H2-H12;
-% voi=H1+H2-2*mi; % Variation of Information (VOI)
+
 end
