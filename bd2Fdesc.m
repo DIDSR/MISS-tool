@@ -16,7 +16,7 @@ img(img~=0)=1;
 img = bwperim(img);
 image_edged = double(img);
 
-border_fft=zeros(size(image_edged));
+% border_fft=zeros(size(image_edged));
 
 % find border
 f=find(image_edged);
@@ -27,10 +27,18 @@ border_cmplx=ii+1i*jj;
 
 border_fft =fftshift(fft(border_cmplx));
 
-if mod(lenf,2) % odd
-    lenf = lenf-1;
+% deal with even and odd nums
+if mod(lenf,2)
+    k=(lenf-1)/2;
+else
+    k=lenf/2;
 end
-rc = fix(lenf/2)+1;
+rc = k+1;
+
+% if mod(lenf,2) % odd
+%     lenf = lenf-1;
+% end
+% rc = fix(lenf/2)+1;
 
 p1=(rc+1):(rc+1+ncoef-1);
 p2=(rc-1):-1:(rc-1-ncoef+1);
@@ -39,6 +47,7 @@ o = zeros(2*ncoef+1,2);
 
 n = 1;
 
+% try
 
 for ind =(ncoef):-1:1
     o(n,1)=real(border_fft(p2(ind)));
@@ -56,6 +65,11 @@ for ind = 1:(ncoef)
     o(n,2)=imag(border_fft(p1(ind)));
     n=n+1;
 end
+
+% catch 
+%     disp (lenf)
+%     disp (ind)
+% end
 
 % save the total number of contour pixels
 o(n,1)=length(f);
