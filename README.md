@@ -3,22 +3,20 @@
 ## Getting Started
 
 ### General Information
-**`MISS-tool`** is a MATLAB-based package for developers and scientists to emulate segmentations by adjusting the (truth) masks input by users. The MISS-tool also provides the segmentation evaluation results of 24 metrics, including the Dice coefficient, Jaccard index (IoU), Medical Similarity Index (MSI), and several distance-based metrics to show the change between the truth and synthesis segmentations. The main goal of developing this tool is to help stakeholders, graduate students, and scientists to speed up their projects by acquiring synthetic segmentations with known ground truth. For more information please contact: **[shuyue.guan@fda.hhs.gov](mailto:shuyue.guan@fda.hhs.gov)**.
+**`MISS-tool`** is a MATLAB-based package for developers and scientists to emulate segmentations by adjusting the (truth) masks input by users. The `MISS-tool` also provides the segmentation evaluation results of 24 metrics, including the Dice coefficient, Jaccard index (IoU), Medical Similarity Index (MSI), and several distance-based metrics to show the change between the truth and synthesis segmentations. The main goal of developing this tool is to help stakeholders, graduate students, and scientists to speed up their projects by acquiring synthetic segmentations with known ground truth. For more information please contact: **[shuyue.guan@fda.hhs.gov](mailto:shuyue.guan@fda.hhs.gov)**.
 
 ### Modules
-The MISS-tool provides the following components:
-1. Image segmentation synthesis (the user inputs a truth mask and the program outputs a segmentation contour with controlled segmentation errors)
-2. Segmentation performance evaluation (the user provides a truth and a segmentation result and the program outputs performance metrics chosen by the user)
+The `MISS-tool` provides the following components:
+1. **Image segmentation synthesis**: the user inputs a truth mask and the program outputs a segmentation contour with controlled segmentation errors.
+2. **Segmentation performance evaluation**: the user provides a truth and a segmentation result and the program outputs performance metrics chosen by the user.
 
 And it supports two ways to use: 
 
-* Graphical User Interface (GUI)
-The GUI allows for visualization of the synthesis results, interactively tuning synthesis parameters, and evaluation results. It includes:
+* **Graphical User Interface (GUI)**: the GUI allows for visualization of the synthesis results, interactively tuning synthesis parameters, and evaluation results. It includes:
   - Computing Segmentation Metrics
   - Synthesis of Segmentation Contours
 
-* Command-line Functions
-The command-line mode allows for processing images in batches as well as providing flexible ways for users to integrate the MISS tool with their applications. It includes:
+* **Command-line Functions**: the command-line mode allows for processing images in batches as well as providing flexible ways for users to integrate the MISS tool with their applications. It includes:
   - Functions for segmentation evaluation metrics
   - Functions for segmentation synthesis
 
@@ -31,7 +29,7 @@ Please refer to the User Guide Documentation or email  **[shuyue.guan@fda.hhs.go
 
 
 ## Installation
-This section will help you to install the packages needed for MISS-tool.
+This section will help you to install the packages needed for `MISS-tool`.
 
 
 ### Pre-requirements
@@ -42,7 +40,7 @@ This section will help you to install the packages needed for MISS-tool.
 
 ### Cite this repository
 
-If you find that MISS-tool is useful or if you use it in your project, please consider citing the code:
+If you find that `MISS-tool` is useful or if you use it in your project, please consider citing the code:
 
 ```
 https://github.com/didsr/MISS-tool
