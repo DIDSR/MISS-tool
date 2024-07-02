@@ -6,7 +6,12 @@
 **`MISS-tool`** is a MATLAB-based package for developers and scientists to emulate segmentations by adjusting the (truth) masks input by users. The MISS-tool also provides the segmentation evaluation results of 24 metrics, including the Dice coefficient, Jaccard index (IoU), Medical Similarity Index (MSI), and several distance-based metrics to show the change between the truth and synthesis segmentations. The main goal of developing this tool is to help stakeholders, graduate students, and scientists to speed up their projects by acquiring synthetic segmentations with known ground truth. For more information please contact: **[shuyue.guan@fda.hhs.gov](mailto:shuyue.guan@fda.hhs.gov)**.
 
 ### Modules
-
+* Graphical User Interface (GUI)
+  - Computing Segmentation Metrics
+  - Synthesis of Segmentation Contours
+* Command-line Functions
+  - Functions for segmentation evaluation metrics
+  - Functions for segmentation synthesis
 
 ### Information for Developers
 User Guide Documentation: [Link](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/User%20Guide.htm) (under construction...)
