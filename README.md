@@ -17,7 +17,7 @@ Please refer to the User Guide Documentation or email  **[shuyue.guan@fda.hhs.go
 
 
 ## Installation
-This section will help you to install the packages needed for ValidPath.
+This section will help you to install the packages needed for MISS-tool.
 
 
 ### Pre-requirements
