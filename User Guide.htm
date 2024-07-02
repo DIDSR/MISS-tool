@@ -310,15 +310,15 @@ help model in the MISS tool.</p>
 
 <p class="MsoNormal">The GUI contains two options: </p>
 
-<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>Segmentation performance evaluation for user’s inputs (a truth
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Segmentation performance evaluation for userâ€™s inputs (a truth
 and a segmentation result)</p>
 
-<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Image segmentation synthesis (a truth mask input by user)</p>
 
 <p class="MsoNormal"><span style="font-family:Consolas;color:#4472C4">To start
-the GUI, open the file “main_option.mlapp” and run it in MATLAB.</span></p>
+the GUI, open the file â€œmain_option.mlappâ€ and run it in MATLAB.</span></p>
 
 <h2><a name="_Toc155695823">Main options</a></h2>
 
@@ -336,8 +336,8 @@ by adjusting the truth masks, select <b>2: <a name="_Hlk150160364">Segmentation
 synthesis</a></b>.</p>
 
 <p class="MsoNormal">When you select any one of the options, a new window will be
-shown, and this main option window will be closed. Don’t worry, there is a
-“Mode Change” button on the new window for going back to this window.</p>
+shown, and this main option window will be closed. Donâ€™t worry, there is a
+â€œMode Changeâ€ button on the new window for going back to this window.</p>
 
 <h2><a name="_Hlk149648453"></a><a name="_Toc155695824">Metrics for user's
 truth and segmentation</a></h2>
@@ -346,22 +346,22 @@ truth and segmentation</a></h2>
 
 <p class="MsoNormal"><img width="489" height="340" id="Picture 1" src="./User Guide_files/image002.jpg"></p>
 
-<p class="MsoNormal">After clicking the “Metrics for user's truth and
-segmentation” on the main options window, you will see the window for <b>Metrics
+<p class="MsoNormal">After clicking the â€œMetrics for user's truth and
+segmentationâ€ on the main options window, you will see the window for <b>Metrics
 Mode</b>. </p>
 
-<p class="MsoNormal"><b>“Mode Change” button</b> on the new window is for going
+<p class="MsoNormal"><b>â€œMode Changeâ€ button</b> on the new window is for going
 back to the main options window.</p>
 
-<p class="MsoNormal">First, you click the “<b>Input Segmentation</b>” and “<b>Input
-Truth</b>” button in turn to input a segmentation and truth mask. The order
+<p class="MsoNormal">First, you click the â€œ<b>Input Segmentation</b>â€ and â€œ<b>Input
+Truth</b>â€ button in turn to input a segmentation and truth mask. The order
 does not matter. </p>
 
 <p class="MsoNormal"><span style="font-family:Consolas;color:#4472C4">The
 supported image formats are: '*.jpg; *.tif; *.png; *.gif'. The image should have
 only one object (connected component) as the segmentation or truth mask. The
-image will be converted to binary image, of which “1” stands for the object
-(foreground) and “0” stands for the background.</span></p>
+image will be converted to binary image, of which â€œ1â€ stands for the object
+(foreground) and â€œ0â€ stands for the background.</span></p>
 
 <p class="MsoNormal"><span style="font-family:Consolas;color:#4472C4">&nbsp;</span></p>
 
@@ -375,50 +375,50 @@ metrics values and images will display automatically.</p>
 
 <h3><a name="_Toc155695826">Result</a></h3>
 
-<p class="MsoNormal">The values of 24 metrics show in the “Comparison” frame. On
+<p class="MsoNormal">The values of 24 metrics show in the â€œComparisonâ€ frame. On
 the <b>Segmentation Viewer</b>, truth mask shows in filled blue area, and the
 segmentation shows in the green contour.</p>
 
 <p class="MsoNormal"><span style="font-family:Consolas;color:#C00000">Note: by default,
 the calculations of Hausdorff Distance (HD) and Average Hausdorff Distance
 (AVD) metrics are off due to a slow processing. If you want to include the two
-metrics, check the <a name="_Hlk149651320">“Compute Hausdorff Distances (Slow)”
-</a>box under the “Comparison” frame.</span></p>
+metrics, check the <a name="_Hlk149651320">â€œCompute Hausdorff Distances (Slow)â€
+</a>box under the â€œComparisonâ€ frame.</span></p>
 
 <p class="MsoNormal"><span style="font-family:Consolas;color:#C00000">&nbsp;</span></p>
 
 <p class="MsoNormal"><img width="487" height="338" id="Picture 4" src="./User Guide_files/image004.jpg"></p>
 
-<p class="MsoNormal">The values of 24 metrics auto-save in the “<b>Workspace</b>”
-of MATLAB, it is a MATLAB <b><i>struct</i></b> value named “<b>metrics_value</b>”.</p>
+<p class="MsoNormal">The values of 24 metrics auto-save in the â€œ<b>Workspace</b>â€
+of MATLAB, it is a MATLAB <b><i>struct</i></b> value named â€œ<b>metrics_value</b>â€.</p>
 
 <p class="MsoNormal"><img width="193" height="53" id="Picture 9" src="./User Guide_files/image005.jpg"></p>
 
 <p class="MsoNormal"><img width="241" height="317" id="Picture 10" src="./User Guide_files/image006.jpg"></p>
 
-<p class="MsoNormal">More details of these metrics are in the “<a href="file:///C:/Users/Shuyue.Guan/OneDrive%20-%20FDA/Documents/User%20Guide.htm#_Function_for_segmentation">Functions of segmentation evaluation metrics</a>”
+<p class="MsoNormal">More details of these metrics are in the â€œ<a href="file:///C:/Users/Shuyue.Guan/OneDrive%20-%20FDA/Documents/User%20Guide.htm#_Function_for_segmentation">Functions of segmentation evaluation metrics</a>â€
 section.</p>
 
 <h3><a name="_Toc155695827"></a><a name="_Other_options"></a>Other options</h3>
 
-<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><b>“Compute Hausdorff Distances (Slow)” check box</b>: on/off the
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>â€œCompute Hausdorff Distances (Slow)â€ check box</b>: on/off the
 calculations of Hausdorff Distance (HD) and Average Hausdorff Distance (AVD)
 metrics.</p>
 
 <p class="MsoListParagraphCxSpMiddle"><img border="0" width="153" height="58" id="Picture 5" src="./User Guide_files/image007.jpg">&nbsp;<span style="font-family:
-Wingdings">ßà</span> <img border="0" width="153" height="57" id="Picture 6" src="./User Guide_files/image008.jpg"></p>
+Wingdings">ÃŸÃ </span> <img border="0" width="153" height="57" id="Picture 6" src="./User Guide_files/image008.jpg"></p>
 
 <p class="MsoListParagraphCxSpMiddle">&nbsp;</p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><b>“Fill contour” check box</b>: on/off filling the area of
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>â€œFill contourâ€ check box</b>: on/off filling the area of
 segmentation. If checked the truth mask shows in filled red area, and the
 segmentation shows in filled blue area with green contour. Their overlapping
 area shows in purple. </p>
 
 <p class="MsoListParagraphCxSpLast"><img border="0" width="188" height="193" id="Picture 7" src="./User Guide_files/image009.jpg">&nbsp;<span style="font-family:
-Wingdings">ßà</span> <img border="0" width="189" height="195" id="Picture 8" src="./User Guide_files/image010.jpg"></p>
+Wingdings">ÃŸÃ </span> <img border="0" width="189" height="195" id="Picture 8" src="./User Guide_files/image010.jpg"></p>
 
 <p class="MsoNormal">&nbsp;</p>
 
@@ -428,64 +428,64 @@ Wingdings">ßà</span> <img border="0" width="189" height="195" id="Picture 8" src
 
 <p class="MsoNormal"><img border="0" width="471" height="325" id="Picture 13" src="./User Guide_files/image011.jpg"></p>
 
-<p class="MsoNormal">After clicking the “Segmentation synthesis” on the main
+<p class="MsoNormal">After clicking the â€œSegmentation synthesisâ€ on the main
 options window, you will see the window for <b>Synthesis Mode</b>. </p>
 
-<p class="MsoNormal"><b>“Mode Change” button</b> on the new window is for going
+<p class="MsoNormal"><b>â€œMode Changeâ€ button</b> on the new window is for going
 back to the main options window.</p>
 
-<p class="MsoNormal">First, you click the “<b>Load Image</b>” button (the blue
+<p class="MsoNormal">First, you click the â€œ<b>Load Image</b>â€ button (the blue
 arrow on above picture) to input a truth mask. </p>
 
 <p class="MsoNormal"><span style="font-family:Consolas;color:#4472C4">The
 supported image formats are: '*.jpg; *.tif; *.png; *.gif'. The image should
 have only one object (connected component) as the segmentation or truth mask.
-The image will be converted to binary image, of which “1” stands for the object
-(foreground) and “0” stands for the background.</span></p>
+The image will be converted to binary image, of which â€œ1â€ stands for the object
+(foreground) and â€œ0â€ stands for the background.</span></p>
 
 <p class="MsoNormal"><img border="0" width="464" height="325" id="Picture 12" src="./User Guide_files/image012.jpg"></p>
 
 <p class="MsoNormal">After inputting a mask, the metrics values and images will display
 automatically. On the <b>Segmentation Viewer</b>, truth mask shows in filled
 blue area, and the modified (synthetic) segmentation shows in the green
-contour. The values of 24 metrics show in the “Comparison” frame. They are
+contour. The values of 24 metrics show in the â€œComparisonâ€ frame. They are
 calculated by using the synthetic segmentation and the truth mask. Without any
 modification, the synthetic segmentation is identical to the truth mask. </p>
 
 <p class="MsoNormal"><span style="font-family:Consolas;color:#C00000">Note: by
 default, the calculations of Hausdorff Distance (HD) and Average Hausdorff
 Distance (AVD) metrics are off due to a slow processing. If you want to include
-the two metrics, check the “Compute Hausdorff Distances (Slow)” box under the “Comparison”
+the two metrics, check the â€œCompute Hausdorff Distances (Slow)â€ box under the â€œComparisonâ€
 frame.</span></p>
 
-<p class="MsoNormal">For details of the “Compute Hausdorff Distances (Slow)”
-check box and “Fill contour” check box, please see in the <a href="file:///C:/Users/Shuyue.Guan/OneDrive%20-%20FDA/Documents/User%20Guide.htm#_Other_options">“Other options” section</a>.</p>
+<p class="MsoNormal">For details of the â€œCompute Hausdorff Distances (Slow)â€
+check box and â€œFill contourâ€ check box, please see in the <a href="file:///C:/Users/Shuyue.Guan/OneDrive%20-%20FDA/Documents/User%20Guide.htm#_Other_options">â€œOther optionsâ€ section</a>.</p>
 
 <p class="MsoNormal">In the Synthesis Mode, our tool provides several methods to
 modify the input truth mask and to generate various synthetic segmentations;
 they are:</p>
 
-<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>Add spiculations – <b>“Spiculation” button</b></p>
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Add spiculations â€“ <b>â€œSpiculationâ€ button</b></p>
 
 <p class="MsoListParagraphCxSpMiddle"><img border="0" width="109" height="109" id="Picture 14" src="./User Guide_files/image013.jpg">&nbsp;<span style="font-family:
-Wingdings">à</span> <img border="0" width="110" height="109" id="Picture 15" src="./User Guide_files/image014.jpg"></p>
+Wingdings">Ã </span> <img border="0" width="110" height="109" id="Picture 15" src="./User Guide_files/image014.jpg"></p>
 
 <p class="MsoListParagraphCxSpMiddle">&nbsp;</p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>Contour change by Fourier Descriptor – <b>“Fourier” button</b></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Contour change by Fourier Descriptor â€“ <b>â€œFourierâ€ button</b></p>
 
 <p class="MsoListParagraphCxSpMiddle"><img border="0" width="109" height="109" id="Picture 18" src="./User Guide_files/image013.jpg">&nbsp;<span style="font-family:
-Wingdings">à</span> <img border="0" width="111" height="109" id="Picture 16" src="./User Guide_files/image015.jpg"></p>
+Wingdings">Ã </span> <img border="0" width="111" height="109" id="Picture 16" src="./User Guide_files/image015.jpg"></p>
 
 <p class="MsoListParagraphCxSpMiddle">&nbsp;</p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>Affine transformation – <b>“Affine” button</b></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Affine transformation â€“ <b>â€œAffineâ€ button</b></p>
 
 <p class="MsoListParagraphCxSpMiddle"><img border="0" width="109" height="109" id="Picture 19" src="./User Guide_files/image013.jpg">&nbsp;<span style="font-family:
-Wingdings">à</span> <img border="0" width="109" height="109" id="Picture 17" src="./User Guide_files/image016.jpg"></p>
+Wingdings">Ã </span> <img border="0" width="109" height="109" id="Picture 17" src="./User Guide_files/image016.jpg"></p>
 
 <p class="MsoListParagraphCxSpLast">&nbsp;</p>
 
@@ -493,31 +493,31 @@ Wingdings">à</span> <img border="0" width="109" height="109" id="Picture 17" src
 different synthetic segmentations. These methods can be applied to masks
 individually or combinedly to create more different synthetic segmentations. The
 following sections show guides of how to use these functions in our tool. For more
-details of these methods, please see in the “<a href="file:///C:/Users/Shuyue.Guan/OneDrive%20-%20FDA/Documents/User%20Guide.htm#_Functions_for_segmentation">Functions of segmentation synthesis</a>”
+details of these methods, please see in the â€œ<a href="file:///C:/Users/Shuyue.Guan/OneDrive%20-%20FDA/Documents/User%20Guide.htm#_Functions_for_segmentation">Functions of segmentation synthesis</a>â€
 section.</p>
 
 <h3><a name="_Toc155695830">Add spiculations</a></h3>
 
 <p class="MsoNormal"><img border="0" width="309" height="193" id="Picture 20" src="./User Guide_files/image017.jpg"></p>
 
-<p class="MsoNormal">After clicking the “Spiculation”, you will see the window
+<p class="MsoNormal">After clicking the â€œSpiculationâ€, you will see the window
 for adding<b> </b>spiculations.</p>
 
 <p class="MsoNormal"><b><u><span style="color:#0070C0">Parameters</span></u></b></p>
 
-<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><a name="_Hlk155529742"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><a name="_Hlk155529742"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Center</b>: location to put the spiculation, it is an angle value
 ranging from 0 to 359 degree (360 = 0 degree).</a></p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Height</b>:<b> </b>the height of the spiculation, the number
 of pixels.</p>
 
-<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Width</b>: the width of the spiculation, the number of pixels.</p>
 
 <p class="MsoNormal" style="margin-left:.25in">For technical details of these
-parameters, please see in the “<b><i>2.3 Spiculations</i></b>” section of the
+parameters, please see in the â€œ<b><i>2.3 Spiculations</i></b>â€ section of the
 paper: </p>
 
 <p class="MsoNormal" style="margin-left:.25in"><span style="font-size:10.0pt;
@@ -531,21 +531,21 @@ color:#222222;background:white"> </span></p>
 
 <p class="MsoNormal"><b><u><span style="color:#0070C0">Operations</span></u></b></p>
 
-<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Close</b>: close the window.</p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Apply to original</b>: add the spiculation to the input mask.
 This operation will reset the mask that has been modified by other methods
 before adding a spiculation.</p>
 
-<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Apply to current</b>: add the spiculation to the current mask.
 This operation is to add a spiculation to a mask that has been modified by
 other methods (or to add multiple spiculations to a mask). In other words, besides
 adding a spiculation, all modifications made before will be kept.</p>
 
-<p class="MsoNormal">After clicking the “Apply to original” or “Apply to current”,
+<p class="MsoNormal">After clicking the â€œApply to originalâ€ or â€œApply to currentâ€,
 the result will show on the Segmentation Viewer. Here we show an example of:</p>
 
 <p class="MsoNormal"><b>Center</b>: 270 (degree)</p>
@@ -556,36 +556,36 @@ the result will show on the Segmentation Viewer. Here we show an example of:</p>
 
 <p class="MsoNormal"><b>Apply to original.</b></p>
 
-<p class="MsoNormal"><img border="0" width="109" height="109" id="Picture 22" src="./User Guide_files/image013.jpg">&nbsp;<span style="font-family:Wingdings">à</span>
+<p class="MsoNormal"><img border="0" width="109" height="109" id="Picture 22" src="./User Guide_files/image013.jpg">&nbsp;<span style="font-family:Wingdings">Ã </span>
 <img border="0" width="109" height="109" id="Picture 21" src="./User Guide_files/image018.jpg"></p>
 
 <h3><a name="_Toc155695831">Change contour by Fourier Descriptor</a></h3>
 
 <p class="MsoNormal"><img border="0" width="319" height="176" id="Picture 23" src="./User Guide_files/image019.jpg"></p>
 
-<p class="MsoNormal">After clicking the “Fourier”, you will see the window for changing
+<p class="MsoNormal">After clicking the â€œFourierâ€, you will see the window for changing
 contour by Fourier Descriptor method.</p>
 
 <p class="MsoNormal"><b><u><span style="color:#0070C0">Parameters</span></u></b></p>
 
-<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><a name="_Hlk155548020"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><a name="_Hlk155548020"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Detail</b>: the<b> </b>number of<b> </b>Fourier Descriptors to
 be not set to zero; the larger value the more detail of the contour
 (high-frequency components) will be kept; ranging from 1 to the half total
 number of Fourier Descriptors (pixels on the contour).</a></p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Range</b>:<b> </b>the<b> </b>number of<b> </b>Fourier
-Descriptors to be modified; ranging from 0 to (<i>Detail value</i> – 1); the
+Descriptors to be modified; ranging from 0 to (<i>Detail value</i> â€“ 1); the
 larger value the greater change is applied to the contour.</p>
 
-<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Magnitude</b>: the magnitude of modification to the Fourier
 Descriptors to be changed according to the <i>Range</i>; the larger value the
 greater change is applied to the contour.</p>
 
 <p class="MsoNormal" style="margin-left:.25in">For technical details of these
-parameters, please see in the “<b><i>2.4 Fourier Descriptor</i></b>” section of
+parameters, please see in the â€œ<b><i>2.4 Fourier Descriptor</i></b>â€ section of
 the paper: </p>
 
 <p class="MsoNormal" style="margin-left:.25in"><span style="font-size:10.0pt;
@@ -599,26 +599,26 @@ color:#222222;background:white"> </span></p>
 
 <p class="MsoNormal"><b><u><span style="color:#0070C0">Operations</span></u></b></p>
 
-<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Close</b>: close the window.</p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Apply to original</b>: change contour of the input mask. This
 operation will reset the mask that has been modified by other methods before changing
 its contour.</p>
 
-<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Apply to current</b>: change contour of the current mask. This
 operation is to change contour of the mask that has been modified by other methods.
 In other words, besides changing contour by the Fourier Descriptor method, all
 modifications made before will be kept.</p>
 
 <p class="MsoNormal"><span style="font-family:Consolas;color:#C00000">Note: due
-to the method of change includes random seeds, for each time running the “Apply
-to original” or “Apply to current”, the result is different.</span> <span style="font-family:Consolas;color:#C00000">For more details about the
-randomness, please see in the “Functions of segmentation synthesis” section.</span></p>
+to the method of change includes random seeds, for each time running the â€œApply
+to originalâ€ or â€œApply to currentâ€, the result is different.</span> <span style="font-family:Consolas;color:#C00000">For more details about the
+randomness, please see in the â€œFunctions of segmentation synthesisâ€ section.</span></p>
 
-<p class="MsoNormal">After clicking the “Apply to original” or “Apply to current”,
+<p class="MsoNormal">After clicking the â€œApply to originalâ€ or â€œApply to currentâ€,
 the result will show on the Segmentation Viewer. Here we show an example of:</p>
 
 <p class="MsoNormal"><b>Detail</b>: 20</p>
@@ -629,41 +629,41 @@ the result will show on the Segmentation Viewer. Here we show an example of:</p>
 
 <p class="MsoNormal"><b>Apply to original.</b></p>
 
-<p class="MsoNormal"><img border="0" width="109" height="109" id="Picture 24" src="./User Guide_files/image013.jpg">&nbsp;<span style="font-family:Wingdings">à</span>
+<p class="MsoNormal"><img border="0" width="109" height="109" id="Picture 24" src="./User Guide_files/image013.jpg">&nbsp;<span style="font-family:Wingdings">Ã </span>
 <img border="0" width="111" height="111" id="Picture 11" src="./User Guide_files/image020.jpg"></p>
 
 <h3><a name="_Toc155695832">Affine transformation</a></h3>
 
 <p class="MsoNormal"><img border="0" width="259" height="149" id="Picture 25" src="./User Guide_files/image021.jpg"></p>
 
-<p class="MsoNormal">After clicking the “Affine”, you will see the window for Affine
+<p class="MsoNormal">After clicking the â€œAffineâ€, you will see the window for Affine
 transformation.</p>
 
 <p class="MsoNormal"><b><u><span style="color:#0070C0">Parameters</span></u></b></p>
 
-<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><a name="_Hlk155550261"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><a name="_Hlk155550261"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Resize</b>: the ratio of size change on x-axis (vertical) and
 y-axis (horizontal). Here we show an example for x = 1.5, y=2 applying to
 original mask, without other changes (Rotation=0 and Shift = (0,0)):</a></p>
 
-<p class="MsoListParagraphCxSpMiddle"><img border="0" width="109" height="109" id="Picture 26" src="./User Guide_files/image013.jpg"><b>&nbsp;</b><span style="font-family:Wingdings">à</span> <img border="0" width="109" height="111" id="Picture 29" src="./User Guide_files/image022.jpg"></p>
+<p class="MsoListParagraphCxSpMiddle"><img border="0" width="109" height="109" id="Picture 26" src="./User Guide_files/image013.jpg"><b>&nbsp;</b><span style="font-family:Wingdings">Ã </span> <img border="0" width="109" height="111" id="Picture 29" src="./User Guide_files/image022.jpg"></p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Rotation</b>:<b> </b>the degree of<b> </b>rotation by the
 center of the mask. Here we show an example for the value = 90 applying to
 original mask, without other changes (Resize=(1,1) and Shift = (0,0)):</p>
 
-<p class="MsoListParagraphCxSpMiddle"><img border="0" width="109" height="109" id="Picture 27" src="./User Guide_files/image013.jpg"><b>&nbsp;</b><span style="font-family:Wingdings">à</span> <img border="0" width="111" height="111" id="Picture 30" src="./User Guide_files/image023.jpg"></p>
+<p class="MsoListParagraphCxSpMiddle"><img border="0" width="109" height="109" id="Picture 27" src="./User Guide_files/image013.jpg"><b>&nbsp;</b><span style="font-family:Wingdings">Ã </span> <img border="0" width="111" height="111" id="Picture 30" src="./User Guide_files/image023.jpg"></p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Shift</b>: moving the mask by its center with the vector (X,
 Y), the number of pixels. Here we show an example for the value = (20, 10) applying
 to original mask, without other changes (Resize=(1,1) and Rotation=0):</p>
 
-<p class="MsoListParagraphCxSpLast"><img border="0" width="109" height="109" id="Picture 28" src="./User Guide_files/image013.jpg"><b>&nbsp;</b><span style="font-family:Wingdings">à</span> <img border="0" width="111" height="111" id="Picture 31" src="./User Guide_files/image024.jpg"></p>
+<p class="MsoListParagraphCxSpLast"><img border="0" width="109" height="109" id="Picture 28" src="./User Guide_files/image013.jpg"><b>&nbsp;</b><span style="font-family:Wingdings">Ã </span> <img border="0" width="111" height="111" id="Picture 31" src="./User Guide_files/image024.jpg"></p>
 
 <p class="MsoNormal" style="margin-left:.25in">For technical details of these parameters,
-please see in the “<b><i>2.1 Affine Transformation</i></b>” section of the
+please see in the â€œ<b><i>2.1 Affine Transformation</i></b>â€ section of the
 paper: </p>
 
 <p class="MsoNormal" style="margin-left:.25in"><span style="font-size:10.0pt;
@@ -677,21 +677,21 @@ color:#222222;background:white"> </span></p>
 
 <p class="MsoNormal"><b><u><span style="color:#0070C0">Operations</span></u></b></p>
 
-<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Close</b>: close the window.</p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Apply to original</b>: change contour of the input mask. This
 operation will reset the mask that has been modified by other methods before changing
 its contour.</p>
 
-<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Apply to current</b>: change contour of the current mask. This
 operation is to change contour of the mask that has been modified by other
 methods. In other words, besides changing contour by Affine transformations,
 all modifications made before will be kept.</p>
 
-<p class="MsoNormal">After clicking the “Apply to original” or “Apply to current”,
+<p class="MsoNormal">After clicking the â€œApply to originalâ€ or â€œApply to currentâ€,
 the result will show on the Segmentation Viewer. </p>
 
 <p class="MsoNormal">&nbsp;</p>
@@ -700,11 +700,11 @@ the result will show on the Segmentation Viewer. </p>
 
 <p class="MsoNormal">Similar to the GUI, the Command model has two parts:</p>
 
-<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>Segmentation performance evaluation for user’s inputs (truth and
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Segmentation performance evaluation for userâ€™s inputs (truth and
 segmentation results)</p>
 
-<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Image segmentation synthesis (truth masks provided by user)</p>
 
 <h2><a name="_Toc155695834">Main functions</a></h2>
@@ -713,7 +713,7 @@ segmentation results)</p>
 for segmentation evaluation metrics: <b>seg_measures</b></h3>
 
 <p class="MsoNormal">This function is used for segmentation performance
-evaluation of user’s inputs (truth masks and segmentation results)</p>
+evaluation of userâ€™s inputs (truth masks and segmentation results)</p>
 
 <p class="MsoNormal"><b><u>Usage</u><span style="color:#0070C0">: </span></b><b><span style="font-family:Consolas;color:#0070C0">idx = seg_measures(<i>img1</i>, <i>img2</i>)</span></b></p>
 
@@ -806,31 +806,31 @@ component)</b> as the segmentation/mask to be modified. And the output from a fu
 <h4><a name="_Toc155695837">Add spiculations: <b>mod_spike</b></a></h4>
 
 <p class="MsoNormal">This function is used to add spiculations to the mask of
-user’s input.</p>
+userâ€™s input.</p>
 
 <p class="MsoNormal"><b><u>Usage</u><span style="color:#0070C0">: </span></b><b><span style="font-family:Consolas;color:#0070C0">syn = mod_spike(<a name="_Hlk155529663"><i>img, center, height, width</i></a>)</span></b></p>
 
 <p class="MsoNormal"><b><u>Input</u></b>: </p>
 
-<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><i><span style="color:#0070C0">img</span></i>: a binary image {0,
 1}</p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><i><span style="color:#0070C0">center</span></i>: location to put
 the spiculation, it is an angle value ranging from 0 to 359 degree (360 = 0
 degree).</p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><i><span style="color:#0070C0">height</span></i>: the height of
 the spiculation, the number of pixels.</p>
 
-<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><i><span style="color:#0070C0">width</span></i>: the width of the
 spiculation, the number of pixels.</p>
 
 <p class="MsoNormal">For technical details of these parameters, please see in the
-“<b><i>2.3 Spiculations</i></b>” section of the paper: </p>
+â€œ<b><i>2.3 Spiculations</i></b>â€ section of the paper: </p>
 
 <p class="MsoNormal" style="margin-left:.25in"><span style="font-size:10.0pt;
 line-height:107%;font-family:&quot;Arial&quot;,sans-serif;color:#222222;background:white">Guan,
@@ -851,7 +851,7 @@ spiculations to a mask needs to run the function multiple times.</span></p>
 
 <h4><a name="_Toc155695838">Change contour by Fourier Descriptor: <b>mod_fourier</b></a></h4>
 
-<p class="MsoNormal">This function is used to change the mask contour of user’s
+<p class="MsoNormal">This function is used to change the mask contour of userâ€™s
 input using Fourier Descriptors.</p>
 
 <p class="MsoNormal"><b><u>Usage</u><span style="color:#0070C0">: </span></b><b><span style="font-family:Consolas;color:#0070C0">syn = mod_fourier(<i>img, detail,
@@ -859,28 +859,28 @@ range, magnitude</i>)</span></b></p>
 
 <p class="MsoNormal"><b><u>Input</u></b>: </p>
 
-<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><i><span style="color:#0070C0">img</span></i>: a binary image {0,
 1}</p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><i><span style="color:#0070C0">detail</span></i>: the number of
 Fourier Descriptors to be not set to zero; the larger value the more detail of
 the contour (high-frequency components) will be kept; ranging from 1 to the
 half total number of Fourier Descriptors (pixels on the contour).</p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><i><span style="color:#0070C0">range</span></i>: the number of
-Fourier Descriptors to be modified; ranging from 0 to (Detail value – 1); the
+Fourier Descriptors to be modified; ranging from 0 to (Detail value â€“ 1); the
 larger value the greater change is applied to the contour.</p>
 
-<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><i><span style="color:#0070C0">magnitude</span></i>: the
 magnitude of modification to the Fourier Descriptors to be changed according to
 the Range; the larger value the greater change is applied to the contour.</p>
 
 <p class="MsoNormal"><a name="_Hlk155629250">For technical details of these
-parameters, please see in the “<b><i>2.4 Fourier Descriptor</i></b>” section of
+parameters, please see in the â€œ<b><i>2.4 Fourier Descriptor</i></b>â€ section of
 the paper: </a></p>
 
 <p class="MsoNormal" style="margin-left:.25in"><span style="font-size:10.0pt;
@@ -899,12 +899,12 @@ same size as the input image. </p>
 <p class="MsoNormal"><span style="font-family:Consolas;color:#C00000">Note: due
 to the method of change includes random seeds, for each time running the function,
 the result could be different.</span> <span style="font-family:Consolas;
-color:#C00000">For more details about the randomness, please see in the “2.4
-Fourier Descriptor” section of the paper (https://doi.org/10.1117/12.2653650).</span></p>
+color:#C00000">For more details about the randomness, please see in the â€œ2.4
+Fourier Descriptorâ€ section of the paper (https://doi.org/10.1117/12.2653650).</span></p>
 
 <h4><a name="_Toc155695839">Affine transformation: <b>mod_affine</b></a></h4>
 
-<p class="MsoNormal">This function is used to change the mask of user’s input
+<p class="MsoNormal">This function is used to change the mask of userâ€™s input
 using affine transformations, which includes: resizing (changing the height and
 width ratio), shifting, and rotation.</p>
 
@@ -913,25 +913,25 @@ rotate, shift</i>)</span></b></p>
 
 <p class="MsoNormal"><b><u>Input</u></b>: </p>
 
-<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><i><span style="color:#0070C0">img</span></i>: a binary image {0,
 1}</p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><i><span style="color:#0070C0">resize</span></i>: the ratio of
 size change on x-axis (vertical) and y-axis (horizontal). Input format: <i><span style="color:#0070C0">[rx, ry]</span></i>.</p>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><i><span style="color:#0070C0">rotation</span></i>: the degree of
 rotation by the center of the mask; it is an angle value ranging from 0 to 359
 degree (360 = 0 degree).</p>
 
-<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class="MsoListParagraphCxSpLast" style="text-indent:-.25in"><span style="font-family:Symbol">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><i><span style="color:#0070C0">shift</span></i>: moving the mask
 by its center with the vector (X, Y), the number of pixels. Input format: <i><span style="color:#0070C0">[sx, sy]</span></i>.</p>
 
 <p class="MsoNormal"><a name="_Hlk155629347">For technical details of these
-parameters, please see in the “<b><i>2.1 Affine Transformation</i></b>” section
+parameters, please see in the â€œ<b><i>2.1 Affine Transformation</i></b>â€ section
 of the paper: </a></p>
 
 <p class="MsoNormal" style="margin-left:.25in"><span style="font-size:10.0pt;
@@ -948,15 +948,15 @@ mask (synthetic segmentation) by using affine transformations, same size as the
 input image. </p>
 
 <p class="MsoNormal"><span style="font-family:Consolas;color:#C00000">Note: the
-“resize” and “shift” are dual-value parameters requiring two values for input; the
+â€œresizeâ€ and â€œshiftâ€ are dual-value parameters requiring two values for input; the
 format is like: [x, y].</span></p>
 
 <h2><a name="_Toc155695840">Example of segmentation evaluation</a></h2>
 
 <p class="MsoNormal">Here we show an example for calculating the 24 metrics of segmentation
 images. One truth mask and 10 segmentation images need to be evaluated. In the
-same folder of the MATLAB code, the file name of truth mask is “<i>TruthMask.png</i>”,
-and the file name of the<i> i</i>-th segmentation image is “<i>Segmentation_i.png</i>”.</p>
+same folder of the MATLAB code, the file name of truth mask is â€œ<i>TruthMask.png</i>â€,
+and the file name of the<i> i</i>-th segmentation image is â€œ<i>Segmentation_i.png</i>â€.</p>
 
 <p class="MsoNormal" style="margin-left:.5in"><span style="font-family:Consolas;
 color:#538135">truth_img = imread(<a name="_Hlk155628076">TruthMask.png</a>);</span></p>
@@ -976,8 +976,8 @@ color:#538135">&nbsp;&nbsp;&nbsp; M{i} = <b>seg_measures</b>(truth_img, seg_i);<
 <p class="MsoNormal" style="margin-left:.5in"><span style="font-family:Consolas;
 color:#538135">end</span></p>
 
-<p class="MsoNormal">The result <span style="font-family:Consolas;color:#0070C0">M{}</span><span style="color:#0070C0"> </span>is a cell includes 10 struct data. For example, <span style="font-family:Consolas;color:#0070C0">M{6}.DICE</span><span style="color:#0070C0"> </span>is the Dice Coefficient of “<i>TruthMask.png”</i>
-and “<i>Segmentation_6.png”</i>.</p>
+<p class="MsoNormal">The result <span style="font-family:Consolas;color:#0070C0">M{}</span><span style="color:#0070C0"> </span>is a cell includes 10 struct data. For example, <span style="font-family:Consolas;color:#0070C0">M{6}.DICE</span><span style="color:#0070C0"> </span>is the Dice Coefficient of â€œ<i>TruthMask.pngâ€</i>
+and â€œ<i>Segmentation_6.pngâ€</i>.</p>
 
 <h2><a name="_Toc155695841">Example of segmentation synthesis</a></h2>
 
@@ -985,7 +985,7 @@ and “<i>Segmentation_6.png”</i>.</p>
 segmentation images (changing contour by <a name="_Hlk155628552">Fourier
 Descriptor</a>) from a truth mask, and then evaluate them by comparing with the
 truth mask. In the same folder of the MATLAB code, the file name of truth mask
-is “<i>TruthMask.png</i>”.</p>
+is â€œ<i>TruthMask.png</i>â€.</p>
 
 <p class="MsoNormal" style="margin-left:.5in"><span style="font-family:Consolas;
 color:#538135">truth_img = imread('TruthMask.png');</span></p>
