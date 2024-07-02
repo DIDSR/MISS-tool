@@ -9,7 +9,7 @@
 
 
 ### Information for Developers
-User Guide Documentation: [Link](https://html-preview.github.io/?url=https://github.com/DIDSR/MISS-tool/blob/main/User%20Guide.htm)
+User Guide Documentation: [Link](https://htmlpreview.github.io/?url=https://github.com/DIDSR/MISS-tool/blob/main/User%20Guide.htm)
 Please refer to the User Guide Documentation or email  **[shuyue.guan@fda.hhs.gov](mailto:shuyue.guan@fda.hhs.gov)** if you have any questions.
 
 ### Testing Examples
