@@ -31,7 +31,7 @@ https://github.com/didsr/MISS-tool
 
 * Open the `main_option.mlapp` file with MATLAB.
 * Click the "Run" button to strat the GUI.
-<img src="img/Run GUI.png" width="1024"/>
+<img src="img/Run GUI.png" width="800"/>
 
 ## User's Manual
 User's Manual: [Link](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html)
