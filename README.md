@@ -40,7 +40,7 @@ https://github.com/didsr/MISS-tool
   - Alternatively, create "New Script" or "New Live Script" in MATLAB, and save them in the (root directory of) "MISS-tool" folder.
 
 ## User's Manual
-User's Manual: [Link](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html)
+**User's Manual: [Link](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html)**
 
 ### Testing Examples
 
