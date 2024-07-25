@@ -22,6 +22,7 @@ User's Manual: [Link](https://htmlpreview.github.io/?https://github.com/DIDSR/MI
 
 ### Testing Examples
 
+* [An example of segmentation evaluation](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html#_Toc172809476)
 
 ## Installation
 This section will help you to install the packages needed for `MISS-tool`.
