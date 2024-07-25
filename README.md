@@ -24,14 +24,20 @@ Installed the **[MATLAB](https://www.mathworks.com/products/matlab.html) R2023a/
 
 ### Preparation
 
-* Download the whole repository from its GitHub and put all files as their original structure in a folder (named `MISS-tool`).
+* Download the whole repository from its GitHub and put all files as their original structure in a folder (named "MISS-tool").
 ```
 https://github.com/didsr/MISS-tool
 ```
 
-* Open the `main_option.mlapp` file with MATLAB.
-* Click the "Run" button to strat the GUI.
-<img src="img/Run GUI.png" width="800"/>
+* Use GUI
+  - Open the `main_option.mlapp` file with MATLAB.
+  - Click the "Run" button to strat the GUI.
+  <img src="img/Run GUI.png" width="800"/>
+  
+* Use Command-line Functions
+  - Set the "Current Folder" in MATLAB as "MISS-tool"
+  - Run commands in the "Command Window" in MATLAB
+  - Alternatively, create "New Script" or "New Live Script" in MATLAB, and save them in the (root directory of) "MISS-tool" folder.
 
 ## User's Manual
 User's Manual: [Link](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html)
