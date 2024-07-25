@@ -17,14 +17,6 @@ The tool can be used in two ways:
   - Functions for segmentation evaluation metrics
   - Functions for segmentation synthesis
 
-### User's Manual
-User's Manual: [Link](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html)
-
-### Testing Examples
-
-* [Segmentation evaluation](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html#_Toc172809476)
-* [Segmentation synthesis](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html#_Toc172809479)
-
 ## Installation
 This section will help you to install the packages needed for `MISS-tool`.
 
@@ -35,7 +27,17 @@ This section will help you to install the packages needed for `MISS-tool`.
 ### Preparation
 
 
-### Cite this repository
+## User's Manual
+User's Manual: [Link](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html)
+
+### Testing Examples
+
+* [Segmentation evaluation](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html#_Toc172809476)
+* [Segmentation synthesis](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html#_Toc172809479)
+
+
+
+## Cite this repository
 
 If you find that `MISS-tool` is useful or if you use it in your project, please consider citing the code:
 
@@ -68,6 +70,6 @@ The sample data are from the LIDC-IDRI dataset, grouped by slices and including 
 ### Contact
 For any questions/suggestions/collaborations regarding this tool, please contact Shuyue Guan (shuyue.guan@fda.hhs.gov) or Weijie Chen (weijie.chen@fda.hhs.gov).
 
-### Acknowledgment 
+## Acknowledgment 
 * This project was supported in part by an appointment to the ORISE Research Participation Program at the Center for Devices and Radiological Health, U.S. Food and Drug Administration, administered by the Oak Ridge Institute for Science and Education through an interagency agreement between the U.S. Department of Energy and FDA/CDRH.
 
