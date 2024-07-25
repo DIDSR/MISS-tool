@@ -29,7 +29,8 @@ Installed the **[MATLAB](https://www.mathworks.com/products/matlab.html) R2023a/
 https://github.com/didsr/MISS-tool
 ```
 
-* Open the ``
+* Open the `main_option.mlapp` file with MATLAB.
+* Click the "Run" button to strat the GUI.
 
 ## User's Manual
 User's Manual: [Link](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html)
