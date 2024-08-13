@@ -1,6 +1,8 @@
 <h2><img align="center" src="img/fp_img.png"> MISS-tool: medical image segmentation synthesis tool</h2>
 
-## General Information
+## Getting Started
+
+### General Information
 **`MISS-tool`** is a MATLAB-based package to emulate contours with certain segmentation errors based on a user-specified truth mask. The `MISS-tool` also provides the segmentation evaluation results of 24 segmentation performance metrics (see [ref] for a full list), including the Dice coefficient, Jaccard index (IoU), Medical Similarity Index (MSI), and several distance-based metrics. The tool can be used for:
 * **Segmentation performance evaluation**: the user inputs a segmentation result and a reference standard (a.k.a truth) segmentation and the program outputs performance metrics chosen by the user. 
 * **Image segmentation synthesis**: the user inputs a truth mask and the program outputs a segmentation contour with segmentation errors controlled by tunable parameters. The synthetic contours can be used, for example, to investigate the response of performance metrics to certain segmentation errors, thus informing the user to choose appropriate metrics for their applications [ref].
@@ -15,41 +17,23 @@ The tool can be used in two ways:
   - Functions for segmentation evaluation metrics
   - Functions for segmentation synthesis
 
+### User's Manual
+User's Manual: [Link](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/User%20Guide.htm) (under construction...)
+
+### Testing Examples
+
+
 ## Installation
 This section will help you to install the packages needed for `MISS-tool`.
 
 
 ### Pre-requirements
-Installed the **[MATLAB](https://www.mathworks.com/products/matlab.html) R2023a/b** or later versions.
+
 
 ### Preparation
 
-* Download the whole repository from its GitHub and put all files as their original structure in a folder (named "MISS-tool").
-```
-https://github.com/didsr/MISS-tool
-```
 
-* Use GUI
-  - Open the `main_option.mlapp` file with MATLAB.
-  - Click the "Run" button to strat the GUI.
-  <img src="img/Run GUI.png" width="800"/>
-  
-* Use Command-line Functions
-  - Set the "Current Folder" in MATLAB as "MISS-tool"
-  - Run commands in the "Command Window" in MATLAB
-  - Alternatively, create "New Script" or "New Live Script" in MATLAB, and save them in the (root directory of) "MISS-tool" folder.
-
-## User's Manual
-**User's Manual: [Link](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html)**
-
-### Testing Examples
-
-* [Segmentation evaluation](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html#_Toc172809476)
-* [Segmentation synthesis](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html#_Toc172809479)
-
-
-
-## Cite this repository
+### Cite this repository
 
 If you find that `MISS-tool` is useful or if you use it in your project, please consider citing the code:
 
@@ -82,6 +66,6 @@ The sample data are from the LIDC-IDRI dataset, grouped by slices and including 
 ### Contact
 For any questions/suggestions/collaborations regarding this tool, please contact Shuyue Guan (shuyue.guan@fda.hhs.gov) or Weijie Chen (weijie.chen@fda.hhs.gov).
 
-## Acknowledgment 
+### Acknowledgment 
 * This project was supported in part by an appointment to the ORISE Research Participation Program at the Center for Devices and Radiological Health, U.S. Food and Drug Administration, administered by the Oak Ridge Institute for Science and Education through an interagency agreement between the U.S. Department of Energy and FDA/CDRH.
 
