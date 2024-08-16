@@ -2,9 +2,9 @@
 <struct>
     <row>
         <categ>FD</categ>
-        <fd_detail_p>4.8193</fd_detail_p>
-        <fd_range_p>0</fd_range_p>
-        <fd_mag>0</fd_mag>
+        <fd_detail_p>4.0161</fd_detail_p>
+        <fd_range_p>30</fd_range_p>
+        <fd_mag>4</fd_mag>
         <sp_center></sp_center>
         <sp_height></sp_height>
         <sp_width></sp_width>
@@ -13,5 +13,33 @@
         <af_shift_x></af_shift_x>
         <af_shift_y></af_shift_y>
         <af_rotation></af_rotation>
+    </row>
+    <row>
+        <categ>SP</categ>
+        <fd_detail_p></fd_detail_p>
+        <fd_range_p></fd_range_p>
+        <fd_mag></fd_mag>
+        <sp_center>35</sp_center>
+        <sp_height>50</sp_height>
+        <sp_width>10</sp_width>
+        <af_resize_x></af_resize_x>
+        <af_resize_y></af_resize_y>
+        <af_shift_x></af_shift_x>
+        <af_shift_y></af_shift_y>
+        <af_rotation></af_rotation>
+    </row>
+    <row>
+        <categ>AF</categ>
+        <fd_detail_p></fd_detail_p>
+        <fd_range_p></fd_range_p>
+        <fd_mag></fd_mag>
+        <sp_center></sp_center>
+        <sp_height></sp_height>
+        <sp_width></sp_width>
+        <af_resize_x>1.2</af_resize_x>
+        <af_resize_y>1.3</af_resize_y>
+        <af_shift_x>12</af_shift_x>
+        <af_shift_y>8</af_shift_y>
+        <af_rotation>15</af_rotation>
     </row>
 </struct>
