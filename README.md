@@ -20,7 +20,7 @@ This section will help you to install the packages needed for `MISS-tool`.
 
 
 ### Pre-requirements
-Installed the **[MATLAB](https://www.mathworks.com/products/matlab.html) R2023a/b** or later versions.
+Installed the **[MATLAB](https://www.mathworks.com/products/matlab.html) R2023b** or later versions.
 
 ### Preparation
 
