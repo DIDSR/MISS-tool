@@ -40,24 +40,24 @@ https://github.com/didsr/MISS-tool
   - Alternatively, create "New Script" or "New Live Script" in MATLAB, and save them in the (root directory of) "MISS-tool" folder.
 
 ## User's Manual
-**User's Manual: [Link](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html)**
+**User's Manual: [Link](https://didsr.github.io/MISS-tool/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html)**
 
 ### Testing Examples
 
-* [Segmentation evaluation](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html#_Toc174976533)
-* [Segmentation synthesis](https://htmlpreview.github.io/?https://github.com/DIDSR/MISS-tool/blob/main/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html#_Toc174976536)
+* [Segmentation evaluation](https://didsr.github.io/MISS-tool/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html#_Toc174976533)
+* [Segmentation synthesis](https://didsr.github.io/MISS-tool/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html#_Toc174976536)
 
 
 
 ## Cite this repository
 
-If you find that `MISS-tool` is useful or if you use it in your project, please consider citing the code:
+If you find that `MISS-tool` is useful or if you use it in your project, please cite this code and the paper:
+
 
 ```
 https://github.com/didsr/MISS-tool
 ```
 
-And this paper:
 ```
 @inproceedings{10.1117/12.2653650,
 author = {Shuyue Guan and Ravi K. Samala and Arian Arab and Weijie Chen},
