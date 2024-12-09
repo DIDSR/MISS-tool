@@ -21,7 +21,6 @@ The MISS tool supports multiple activities by end users and AI developers includ
  - Investigating truthing methods and informing truthing method selection by allowing users to assess the impact of different augmentation methods for combining multiple segmentation (truth) masked provided by a set of truthers.
  - Assessing the robustness of a segmentation algorithm by synthesizing controlled segmentation errors on a dataset that the algorithm is intended to be applied to and investigating the variability of the performance metrics.
  - Evaluating the impact of segmentation errors on subsequent analyses through the synthesis of well controlled and customizable segmentation errors.
-   
    The MISS-tool allows users to customize segmentation errors by configurable parameters. For example, the magnitude of contour changes, the position and height of spiculations, and the area of overlapping between the truth mask and synthetic segmentation.
    
 The intended users of this MISS tool include AI segmentation algorithm developers and assessors.  The clinical use cases include AI-based segmentation applied to Digital Pathology and Radiology image datasets.
