@@ -1,9 +1,12 @@
 <h2><img align="center" src="img/fp_img.png"> MISS-tool: medical image segmentation synthesis tool</h2>
 
-## General Information
-**`MISS-tool`** is a MATLAB-based package to emulate contours with certain segmentation errors based on a user-specified truth mask. The `MISS-tool` also provides the segmentation evaluation results of 24 segmentation performance metrics (see [Link](https://didsr.github.io/MISS-tool/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html#_Toc184645958:~:text=A%20struct%20data%20includes%2024%20indexes%20of%20segmentation%20evaluation%20metrics) for a full list), including the Dice coefficient, Jaccard index (IoU), Medical Similarity Index (MSI), and several distance-based metrics. The tool can be used for:
-* **Segmentation performance evaluation**: the user inputs a segmentation result and a reference standard (a.k.a truth) segmentation and the program outputs performance metrics chosen by the user. 
-* **Image segmentation synthesis**: the user inputs a truth mask and the program outputs a segmentation contour with segmentation errors controlled by tunable parameters. The synthetic contours can be used, for example, to investigate the response of performance metrics to certain segmentation errors, thus informing the user to choose appropriate metrics for their applications [(ref)](http://dx.doi.org/10.1109/AIPR57179.2022.10092203).
+## Description
+The Medical Image Segmentation Synthesis (MISS) Tool is software written in MATLAB that allows a user to produce synthetic segmentations and assess segmentation performance using a wide range of performance metrics implemented within the code. It contains two basic components:
+* **Image segmentation synthesis function**:  This function allows a user to emulate a range of reader/algorithm segmentations through the adjustment of an input (truth) segmentation mask with various types of segmentation errors such as the addition of spiculations or other types of systematic contour changes. The user inputs an initial segmentation (truth) mask, and the image segmentation synthesis function outputs a new segmentation contour that includes the selected segmentation errors.
+* **Segmentation performance evaluation function**: This function allows a user to compute 24 performance metrics (see [Link](https://didsr.github.io/MISS-tool/Medical%20Image%20Segmentation%20Synthesis%20(MISS)%20Tool%20User%20Guide.html#_Toc184645958:~:text=A%20struct%20data%20includes%2024%20indexes%20of%20segmentation%20evaluation%20metrics) for a full list), such as the Dice coefficient, Jaccard index (IoU), Medical Similarity Index (MSI), and Hausdorff Distance (HD), as part of a comprehensive segmentation evaluation applied to a single or set of imaging studies. The user provides a truth mask and a segmentation mask for each image, and the program outputs values for the 24-performance metrics chosen by the user.
+
+The MISS tool can be used through a graphical user interface (GUI) or as command-line functions inserted into a user’s own code. The GUI allows for visualization of the synthesis segmentation, interactive tuning of the synthesis parameters, and display of the segmentation evaluation results. The command-line mode allows for processing images in batches as well as providing flexible ways for users to integrate the MISS tool with their applications.
+
   
 The tool can be used in two ways: 
 
@@ -17,7 +20,7 @@ The tool can be used in two ways:
 
 ## Intended Purpose
 The MISS tool supports multiple activities by end users and AI developers including:
- - Investigating properties of segmentation performance metrics and informing segmentation metric selection.
+ - Investigating properties of segmentation performance metrics and informing segmentation metric selection[(ref)](http://dx.doi.org/10.1109/AIPR57179.2022.10092203).
  - Investigating truthing methods and informing truthing method selection by allowing users to assess the impact of different augmentation methods for combining multiple segmentation (truth) masked provided by a set of truthers.
  - Assessing the robustness of a segmentation algorithm by synthesizing controlled segmentation errors on a dataset that the algorithm is intended to be applied to and investigating the variability of the performance metrics.
  - Evaluating the impact of segmentation errors on subsequent analyses through the synthesis of well controlled and customizable segmentation errors.
